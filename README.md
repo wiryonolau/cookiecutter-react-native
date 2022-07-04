@@ -7,9 +7,14 @@ We strip the ios part
 We bundle it inside virtualenv
 We don't use Expo CLI
 
+Project Structure Reference 
+
+ - https://cheesecakelabs.com/blog/efficient-way-structure-react-native-projects/
+ - https://cheesecakelabs.com/blog/atomic-design-react
+
 ## Prerequisite ##
 
-1. Before running cookiecutter makesure nodejs and nodeenv is installed
+1. Before running cookiecutter make sure nodejs and nodeenv are installed
 
    ```bash
    sudo apt install nodejs nodeenv
@@ -33,9 +38,10 @@ We don't use Expo CLI
    export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
    ```
 
-5. Cookiecutter this project
+5. Install and cookiecutter this project
 
    ```bash
+   pip3 install --user cookiecutter
    cookiecutter gh:wiryonolau/cookiecutter-react-native
    ```
 
