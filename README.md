@@ -14,10 +14,10 @@ Project Structure Reference
 
 ## Prerequisite ##
 
-1. Before running cookiecutter make sure nodejs and nodeenv are installed
+1. Make sure below library is installed
 
    ```bash
-   sudo apt install nodejs nodeenv
+   sudo apt install nodejs nodeenv openjdk-17-jre
    ```
 
 2. Install Android SDK and create Android device

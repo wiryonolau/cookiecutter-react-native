@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "android": "react-native run-android",
-    "start": "react-native start",
+    "start": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint ."
   },

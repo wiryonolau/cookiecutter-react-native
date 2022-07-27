@@ -2,4 +2,5 @@
 git init
 nodeenv --node=17.9.0 --prebuilt .env
 source .env/bin/activate
-npm install
+npm install -g yarn
+yarn install
