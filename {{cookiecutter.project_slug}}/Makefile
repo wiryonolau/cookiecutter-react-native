@@ -16,7 +16,9 @@ all:
 clean:
 	rm -rf $$(pwd)/android/build
 	cd $$(pwd)/android && ./gradlew clean
+	rm -rf $$(pwd)/android/app/src/main/assets/index.android.bundle || true
+	rm -rf $$(pwd)/android/app/build/outputs/apk/debug || true
 clean-all:
 	rm -rf $$(pwd)/node_modules
-	source .env/bin/activate && npm install
+	source .env/bin/activate && npm install 
 	$(MAKE) clean
