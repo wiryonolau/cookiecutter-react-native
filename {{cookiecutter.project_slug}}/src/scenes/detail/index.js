@@ -7,7 +7,9 @@ const DetailsScreen = ({ route, navigation }) => {
 
     return (
         <View
-            style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+            style={
+                { flex: 1, alignItems: "center", justifyContent: "center" }
+            }
         >
             <Text>Detail Screen</Text>
             <Text>parameter passed: {JSON.stringify(itemId)}</Text>

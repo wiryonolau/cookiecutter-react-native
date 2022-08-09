@@ -6,19 +6,23 @@ const HomeScreen = ({ navigation }) => {
 
     return (
         <View
-            style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+            style={
+                { flex: 1, alignItems: "center", justifyContent: "center" }
+            }
         >
             <Text>Home Screen</Text>
             <TextInput
                 onChangeText={(val) => setTxt(val)}
                 placeholder="type anything you want here ..."
-                style={{
-                    borderWidth: 1,
-                    borderRadius: 5,
-                    borderColor: "gray",
-                    marginVertical: 5,
-                    padding: 10,
-                }}
+                style={
+                    {
+                        borderWidth: 1,
+                        borderRadius: 5,
+                        borderColor: "gray",
+                        marginVertical: 5,
+                        padding: 10,
+                    }
+                }
             />
             <Button
                 title="Go to Details"

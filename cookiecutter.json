@@ -1,11 +1,7 @@
 {
     "project_name": "Package Name",
     "project_slug": "{{ cookiecutter.project_name|lower|replace('-','_')|replace(' ','_') }}",
-    "github_user": "wiryonolau",
-    "package_name": "{{ cookiecutter.github_user|lower }}/{{ cookiecutter.project_slug }}",
+    "package_name": "{{ cookiecutter.project_slug }}",
     "author_name" : "Wiryono Lauw",
-    "author_email": "wiryonolau@gmail.com",
-    "_copy_without_render": [
-        "App.js"
-    ]
+    "author_email": "wiryonolau@gmail.com"
 }
