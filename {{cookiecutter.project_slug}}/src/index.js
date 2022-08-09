@@ -1,3 +1,4 @@
+import React from "react";
 import AppNavigator from "_navigations";
 
 const App = () => {

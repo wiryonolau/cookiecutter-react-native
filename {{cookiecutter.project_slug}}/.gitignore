@@ -61,3 +61,14 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+*.swp
+*.bak
+.env
+build
+dist
+*.local
+*.local.*
+*.dist
+*.dist.*
+
